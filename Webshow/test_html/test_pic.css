@@ -1,0 +1,16 @@
+@keyframes ani{/*動畫腳本的意思 後面要加上腳本名稱(自訂)*/
+    0%{/* 在最一開始呈現的內容*/
+        transform: translateY(-40px);/*變形(垂直位移)*/
+        opacity: 0;/*不透明度*/
+    }
+    
+    100%{
+        transform: translateY(0px);
+    opacity: 1;
+    }
+
+    
+}
+.test h1{
+    animation: ani 1s;/*動畫 腳本名稱 動畫秒數*/
+    } 
